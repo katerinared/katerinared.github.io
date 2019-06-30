@@ -9,7 +9,7 @@ img{
 
 body{
  font-family: 'Nunito Sans', sans-serif; 
- font-size: 18px;
+ font-size: 16px;
  color: #2a3035;
  width: 100%;
  overflow-x: hidden; 
@@ -17,34 +17,51 @@ body{
 }
 
 a{
-    color: #2a3035;
-    text-decoration: underline;
+    color: #70e270;
+    text-decoration: none;
 }
 
 a:hover{
-    color: #e89096;
+    color: #65d365;
+}
+
+h3{
+    margin-bottom: 20px;
+
 }
 
 .wrapper{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .header_container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 40px 0px;
 }
 
 .logo{
-    max-width: 260px;
+    max-width: 200px;
+}
+
+.email{
+    color: #2a3035;
+
 }
 
 .about_me{
-    font-size: 20px;
+    font-size: 18px;
     padding: 40px 0px;
     max-width: 700px;
+}
+
+.about_me__avatar{
+    width: 150px;
+    padding-bottom: 10px;
 }
 
 .portfolio{
@@ -53,12 +70,109 @@ a:hover{
 }
 
 .project{
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .project__descr{
     color: #2a3035;
     line-height: 1.6;
     margin-top: 5px;
-    font-weight: 300;
+}
+
+.about_project{
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.about_project__title{
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.project__title--soon a {
+    position: relative;
+}
+
+.project__title--soon a:before{
+    position: absolute;
+    content: "soon";
+    background: white;
+    color: #EB4C72;
+    font-size: 13px;
+    line-height: 1;
+    border-radius: 24px;
+    padding: 4px 10px;
+    box-shadow: 0 6px 10px rgba(202, 204, 209, 0.25);
+    top: 0;
+    left: 105%;
+}
+
+.about_project__image{
+    margin: 0 auto;
+    width: 80%;
+    
+}
+
+.about_project__description{
+    margin: 0 auto;
+    max-width: 60%;
+    text-align: center;
+    color: #2a3035;
+    margin-bottom: 40px;
+
+}
+
+.about_project__backlink{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #c4c7ca;
+
+}
+
+.blockquote{
+    max-width: 40%;
+    padding: 20px 0 80px 0;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.blockquote__text{
+    width: 100%;
+    font-style: italic;
+    text-align: center;
+}
+
+.blockquote_border{
+    width: 160px;
+    margin: 0 auto;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.feature__image{
+    width: 70%;
+}
+
+.feature__description{
+    width: 30%;
+    padding: 0 40px;
+}
+
+.feature--reverse{
+    flex-direction: row-reverse; 
+}
+
+.see_project{
+    text-align: center;
+    padding: 40px 0 100px 0;
 }
