@@ -107,7 +107,7 @@ h3{
     padding: 4px 10px;
     box-shadow: 0 6px 10px rgba(202, 204, 209, 0.25);
     top: 0;
-    left: 105%;
+    left: calc(100% + 5px);
 }
 
 .about_project__image{
