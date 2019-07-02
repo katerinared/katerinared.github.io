@@ -98,6 +98,7 @@ h3{
 
 .project__title--soon a {
     position: relative;
+    color: rgb(177, 181, 196);
 }
 
 .project__title--soon a:before{
@@ -186,6 +187,7 @@ h3{
     font-size: 14px;
     color: #c4c7ca;
     padding-bottom: 30px;
+    margin-top: 100px;
 }
 
 .project_title--nda{
