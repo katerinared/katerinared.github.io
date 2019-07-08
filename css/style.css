@@ -126,6 +126,7 @@ h3 {
 }
 
 .about_project__backlink {
+    width: 100%;
     text-align: center;
     display: inline-block;
     margin-bottom: 20px;
@@ -222,7 +223,14 @@ h3 {
 }
 
 @media screen and (max-width: 700px){
+
+    .logo{
+        max-width: 280px;
+    }
     
+    .project__title{
+        line-height: 1.4;
+    }
     .feature__image, .feature__description {
         width: 100%;
         padding: 0 20px;
@@ -248,14 +256,25 @@ h3 {
     }
     
     .email {
-        margin-top: 15px;
+        margin-top: 5px;
     }
     
     .about_project__image {
         width: 100%;
     }
-   
+    .project__preview {
+        display: none;
+    }
 }
+
+@media screen and (max-width: 404px){
+    .project__title--soon a:before {
+        top: -30px;
+        left: 0;
+    }
+
+}
+
 
 @media only screen and (min-width: 1000px) {
     
