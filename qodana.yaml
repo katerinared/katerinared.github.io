@@ -68,3 +68,4 @@ include:
   - name: CheckEmptyScriptTag
   - name: ActionIsNotPreviewFriendly
   - name: CheckDependencyLicenses
+  - name: CheckDependencyLicensesLocal
