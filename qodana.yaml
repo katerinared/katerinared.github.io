@@ -67,3 +67,4 @@ include:
   - name: HtmlUnknownAnchorTarget
   - name: CheckEmptyScriptTag
   - name: ActionIsNotPreviewFriendly
+  - name: CheckDependencyLicenses
